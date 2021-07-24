@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import HelloWorld from './HelloWorld';
 
 function App() {
   return (
-    <h1 className="h1">Hello, world!</h1>
+    <HelloWorld />
   );
 }
 
-export default App;
+export default App; // estamos exportando esse arquivo para index.js, onde será renderizado por meio do ReactDOM.render
