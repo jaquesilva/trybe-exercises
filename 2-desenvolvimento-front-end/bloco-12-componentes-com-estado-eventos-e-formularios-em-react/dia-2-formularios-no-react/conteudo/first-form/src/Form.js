@@ -36,7 +36,7 @@ class Form extends Component {
         />
       </form>
     </div>
-    )
+    );
   }
 }
 
