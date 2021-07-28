@@ -1,3 +1,6 @@
+// index.js -> é o componente pai
+// Arquivo que inicializa a aplicação
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -6,12 +9,10 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App /> {/* é o componente filho */}
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// <App /> -> é o componente filho
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
