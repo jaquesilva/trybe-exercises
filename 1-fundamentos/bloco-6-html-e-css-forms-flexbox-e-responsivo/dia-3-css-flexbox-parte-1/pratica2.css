@@ -1,0 +1,22 @@
+.box {
+  color: #9069EF;
+  background-color: rgb(243, 243, 243);
+  border: 2px solid #232525;
+  font-size: 50px;
+  height: 60px;
+  margin: 10px 5px;
+  text-align: center;
+  width: 20%;
+}
+
+/* teste as possibilidades ( center , flex-start , flex-end , space-around e space-between ) para a propriedade justify-content .*/
+.box-container {
+  background-color: #0fa36b;
+  display: flex;
+  /*justify-content: center;*/
+  /*justify-content: flex-end;*/
+  /*justify-content: space-around;*/
+  /*justify-content: space-between;*/
+  /*justify-content: space-evenly; -> espaço igual entre os itens */
+  justify-content: start;
+}
