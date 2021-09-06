@@ -1,11 +1,12 @@
 import React from 'react';
 import Component from './Component';
 import HelloWorld from './HelloWorld';
+import './App.css';
 
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <HelloWorld />
       <Component />
     </div>

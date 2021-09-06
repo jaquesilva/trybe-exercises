@@ -11,4 +11,6 @@ class Component extends React.Component {
   }
 }
 
-export default Component;
+export default Component; // Precisamos exportar esse componente para conseguir utilizá-lo em outro lugar
+
+// Componente filho de App.js
