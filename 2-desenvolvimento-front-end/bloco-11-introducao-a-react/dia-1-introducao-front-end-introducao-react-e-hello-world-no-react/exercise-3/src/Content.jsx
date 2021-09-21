@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Content.css';
 
 const conteudos = [
   {
@@ -26,9 +27,9 @@ const conteudos = [
 class Content extends Component {
   render() {
     return (
-      <div>
+      <div className="content">
         { conteudos.map((conteudo) => (
-          <div key={conteudo.conteudo}>
+          <div key={conteudo.conteudo} className="card">
             <h4>{ `O conteúdo é: ${conteudo.conteudo}` }</h4>
             <p>{ `status: ${conteudo.status}` }</p>
             <p>{ `bloco: ${conteudo.bloco}`}</p>
