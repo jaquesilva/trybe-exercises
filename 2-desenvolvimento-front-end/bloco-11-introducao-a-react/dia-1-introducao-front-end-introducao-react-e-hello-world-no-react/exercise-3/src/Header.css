@@ -1,0 +1,8 @@
+.title {
+  width: 100%;
+  background: green;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: white
+}
