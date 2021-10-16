@@ -24,4 +24,6 @@ class App extends Component {
   }
 }
 
+// teste
+
 export default App;
