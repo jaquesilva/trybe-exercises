@@ -17,7 +17,7 @@ metodologias ágeis e habilidades comportamentais.
 
 1-3: Unix & Bash - Part 1 :heavy_check_mark:
 
-1-4: Unix & Bash - Part 2 :heavy_check_mark:
+1-4: Unix & Bash - Part 2 
 
 ### Bloco 2: Git & GitHub
 
