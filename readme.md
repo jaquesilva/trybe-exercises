@@ -200,7 +200,7 @@ metodologias ágeis e habilidades comportamentais.
 
 19-1: Banco de dados SQL :heavy_check_mark:
 
-19-2: Encontrando dados em um banco de dados 
+19-2: Encontrando dados em um banco de dados :heavy_check_mark:
 
 19-3: Filtrando dados de forma específica :heavy_check_mark:
 
