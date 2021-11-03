@@ -210,7 +210,7 @@ metodologias ágeis e habilidades comportamentais.
 
 ### Bloco 20: Funções SQL, Joins e subqueries
 
-20-1: Funções mais usadas no sql 
+20-1: Funções mais usadas no sql :heavy_check_mark:
 
 20.2: Descomplicando JOINS, UNIOS e Subqueries 
 
