@@ -10,7 +10,10 @@ INNER JOIN
 FROM ON b.movie_id = m.
 HAVING rating > 7.5
 
--- Query correta:USE Pixar;
+-- Query correta:
+
+-- Usando SUBQUERY
+USE Pixar;
 
 SELECT 
     title
@@ -23,4 +26,16 @@ WHERE
             BoxOffice
         WHERE
             rating > 7.5);
+
+-- Usando INNER JOIN
+USE Pixar;
+
+SELECT 
+    m.title
+FROM
+    Movies m
+        INNER JOIN
+    BoxOffice b ON b.movie_id = m.id
+WHERE
+    b.rating > 7.5;
 
