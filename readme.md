@@ -208,15 +208,12 @@ metodologias ágeis e habilidades comportamentais.
 
 ### Bloco 20: Introdução à SQL
 
-20.1: Introdução - Bancos de dados relacionais / Banco de dados SQL heavy_check_mark
+20.1: Introdução - Bancos de dados relacionais / Banco de dados SQL :heavy_check_mark:
 
-20.2: Encontrando dados em um banco de dados heavy_check_mark
+20.2: Encontrando dados em um banco de dados :heavy_check_mark:
 
-20.3: Filtrando dados de forma específica heavy_check_mark
+20.3: Filtrando dados de forma específica :heavy_check_mark:
 
-20.4: Manipulando tabelas heavy_check_mark
+20.4: Manipulando tabelas :heavy_check_mark:
 
 20.5: Projeto - All For One
-
-21-4: Projeto One for All heavy_check_mark
-
