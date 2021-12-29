@@ -198,9 +198,9 @@ metodologias ágeis e habilidades comportamentais.
 
 ### Bloco 19: Docker: Utilizando Containers
 
-19.1: Introdução - Back-end / Utilizando Containers - Docker
+19.1: Introdução - Back-end / Utilizando Containers - Docker :heavy_check_mark:
 
-19.2: Manipulação e Criação de Imagens no Docker
+19.2: Manipulação e Criação de Imagens no Docker :heavy_check_mark:
 
 19.3: Orquestrando Containers com Docker Compose
 
@@ -216,4 +216,4 @@ metodologias ágeis e habilidades comportamentais.
 
 20.4: Manipulando tabelas :heavy_check_mark:
 
-20.5: Projeto - All For One
+20.5: Projeto - All For One :heavy_check_mark:
