@@ -1,5 +1,8 @@
 // console.log('Hello, world!');
 
+// Pacote importado: readline-sync
+// Disponíve em: https://www.npmjs.com/package/readline-sync
+
 const readline = require('readline-sync');
 
 const name = readline.question('Qual seu nome?');
