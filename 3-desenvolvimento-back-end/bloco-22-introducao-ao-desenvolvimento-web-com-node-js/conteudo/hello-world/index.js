@@ -1,7 +1,7 @@
 // console.log('Hello, world!');
 
 // Pacote importado: readline-sync
-// Disponíve em: https://www.npmjs.com/package/readline-sync
+// Disponível em: https://www.npmjs.com/package/readline-sync
 
 const readline = require('readline-sync');
 
