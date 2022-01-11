@@ -1,0 +1,13 @@
+{
+  "name": "tests-mocha-chai-sinon",
+  "version": "1.0.0",
+  "description": "Realizando testes em Mocha, Chai e Sinon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nocha tests",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaqueline Silva",
+  "license": "ISC"
+}
