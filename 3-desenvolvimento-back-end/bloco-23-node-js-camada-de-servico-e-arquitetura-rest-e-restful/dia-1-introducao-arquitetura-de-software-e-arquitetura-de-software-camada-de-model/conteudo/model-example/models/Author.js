@@ -58,7 +58,7 @@ return authors.map(serialize).map(getNewAuthor);
 
  // Busca uma pessoa autora específica, a partir do seu ID
 // @param {String} id ID da pessoa autora a ser recuperado
-const findById = async (id) => {
+const getById = async (id) => {
   // Repare que substituímos o id por `?` na query.
   // Depois, ao executá-la, informamos um array com o id para o método `execute`.
   // O `mysql2` vai realizar, de forma segura, a substituição do `?` pelo id informado.
@@ -100,7 +100,7 @@ const create = async (firstName, middleName, lastName) => connection.execute(
 
 module.exports = {
   getAll,
-  findById,
+  getById,
   isValid,
   create,
 };

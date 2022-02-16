@@ -26,6 +26,7 @@
 // 3. Crie um método getByAuthorId no modelo Book , para retornar apenas livros associados com um determinado author_id . E altere o middleware da rota books criado no passo 2 para receber uma query string com a chave author_id , e retornar apenas os livros associados.
 
 const connection = require('./connection');
+const Author = require('./Author');
 
 // =========================================
 
@@ -43,21 +44,21 @@ const getAll = async () => {
 
 // ==========================================
 
-const getByAuthorId = async () => {
-  const query = 'SELECT * FROM model_example.books WHERE author_id=?;'
-  const [books] = await connection.execute(query, [authorId]);
+// const getByAuthorId = async (authorId) => {
+//   const query = 'SELECT * FROM model_example.books WHERE author_id=?;'
+//   const [books] = await connection.execute(query, [authorId]);
 
-  return books.map(({ id, title, author_id }) => ({
-    id,
-    title,
-    authorId: author_id,
-  }));
-};
+//   return books.map(({ id, title, author_id }) => ({
+//     id,
+//     title,
+//     authorId: author_id,
+//   }));
+// };
 
 // ===========================================
 
 const getById = async (id) => {
-  const query = 'SELECT * FROM model_example.books WHERE id=?;'
+  const query = 'SELECT * FROM model_example.books WHERE id = ?;'
   const [books] = await connection.execute(query, [id]);
 
   if (books.length === 0) return null;
@@ -82,8 +83,7 @@ const getById = async (id) => {
 // Função que verifica se um livro é válido. Se o título não existir ou não for uma string , retornaremos false . Se o ID do autor não for informado ou não for um número, ou se o autor em questão não existir, retornamos falso. Caso ambos os campos sejam válidos, retornamos true .
 const isValid = async (title, authorId) => {
   if (!title || typeof title !== 'string' || title.length < 3) return false;
-  if (!lastName || typeof lastName !== 'string') return false;
-  if (!authorId || typeof authorId !== 'numer' || !(await authorId.getByAuthorId(authorId))) return false;
+  if (!authorId || typeof authorId !== 'number' || !(await Author.getById(authorId))) return false;
 
   return true;
 };
@@ -96,7 +96,7 @@ const create = async (title, author_id) => connection.execute(
 
 module.exports = {
   getAll,
-  getByAuthorId,
+  // getByAuthorId,
   getById,
   isValid,
   create,

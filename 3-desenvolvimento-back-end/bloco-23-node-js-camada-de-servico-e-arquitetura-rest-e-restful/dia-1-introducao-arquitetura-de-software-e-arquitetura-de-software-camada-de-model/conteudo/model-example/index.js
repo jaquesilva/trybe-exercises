@@ -15,31 +15,13 @@ app.get('/authors', async (req, res) => {
   res.status(200).json(authors);
 });
 
-app.get('/authors/:id', async (req, res) => {
+app.get('/author/:id', async (req, res) => {
   const { id } = req.params;
-  const author = await Author.findById(id);
+  const author = await Author.getById(id);
 
   if (!author) return res.status(404).json({ message: 'Not found' })
 
   res.status(200).json(author);
-})
-
-app.get('/books', async (req, res) => {
-  const { author_id } = req.query;
-  const books = (author_id)
-  ? await Book.getByAuthorId(author_id)
-  : await Book.getAll();
-
-  res.status(200).json(books);
-});
-
-app.get('/book/:id', async (req, res) => {
-  const { id } = req.params;
-  const book = await Book.getById(id);
-
-  if (!book) return res.status(404).json({ message: 'Not found' })
-
-  res.status(200).json(book);
 })
 
 app.post('/authors', async(req, res) => {
@@ -54,6 +36,31 @@ app.post('/authors', async(req, res) => {
   res.status(201).json({ message: 'Autor criado com sucesso' })
 })
 
+// app.get('/books', async (req, res) => {
+//   const { author_id } = req.query;
+
+//   const books = (author_id)
+//   ? await Book.getByAuthorId(author_id)
+//   : await Book.getAll();
+
+//   res.status(200).json(books);
+// });
+
+app.get('/books', async (req, res) => {
+  const books = await Book.getAll();
+
+  res.status(200).json(books);
+});
+
+app.get('/book/:id', async (req, res) => {
+  const { id } = req.params;
+  const book = await Book.getById(id);
+
+  if (!book) return res.status(404).json({ message: 'Not found' })
+
+  res.status(200).json(book);
+})
+
 app.post('/books', async(req, res) => {
   const { title, author_id } = req.body;
 
@@ -65,6 +72,7 @@ app.post('/books', async(req, res) => {
 
   res.status(201).json({ message: 'Livro criado com sucesso' })
 })
+
 // ====================================
 
 const PORT = process.env.PORT || 3000;
