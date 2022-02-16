@@ -54,6 +54,10 @@ const [authors] = await connection.execute(
 return authors.map(serialize).map(getNewAuthor);
 };
 
+// =======================================
+
+ // Busca uma pessoa autora específica, a partir do seu ID
+// @param {String} id ID da pessoa autora a ser recuperado
 const findById = async (id) => {
   // Repare que substituímos o id por `?` na query.
   // Depois, ao executá-la, informamos um array com o id para o método `execute`.
@@ -72,8 +76,31 @@ const findById = async (id) => {
     middleName,
     lastName,
   })
-}
+};
+
+// ========================================
+
+// Função que retorna um boolean indicando se os dados são válidos, checando se firstName e lastName são strings não vazias, e se middleName , caso seja informado, é uma string
+const isValid = (firstName, middleName, lastName) => {
+  if (!firstName || typeof firstName !== 'string') return false;
+  if (!lastName || typeof lastName !== 'string') return false;
+  if (middleName && typeof middleName !== 'string') return false;
+
+  return true;
+};
+
+// =========================================
+
+// Função que recebe firstName, middleName e lastName e salva uma pessoa autora no banco
+const create = async (firstName, middleName, lastName) => connection.execute(
+  'INSERT INTO model_example.authors (first_name, middle_name, last_name) VALUES (?,?,?)',
+  [firstName, middleName, lastName],
+);
+
+
 module.exports = {
   getAll,
   findById,
+  isValid,
+  create,
 };
