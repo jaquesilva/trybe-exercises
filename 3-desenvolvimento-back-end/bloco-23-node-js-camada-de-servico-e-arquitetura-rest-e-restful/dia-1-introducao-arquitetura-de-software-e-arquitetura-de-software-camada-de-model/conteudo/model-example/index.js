@@ -1,19 +1,19 @@
 const express = require('express');
-const bodyParser = require('body-parser'); // Para requisições POST, precisaremos fazer o parsing do corpo da requisição. O middleware body-parser é capaz de fazer isso automaticamente para nós.
+const bodyParser = require('body-parser');
 
-const Author = require('./models/Author.js');
+const Author = require('./models/Author');
 const Book = require('./models/Book');
 
 const app = express();
 app.use(bodyParser.json());
 
-// ==================================================================
+// =================================================
 
 app.get('/authors', async (_req, res) => {
-    const authors = await Author.getAll();
+  const authors = await Author.getAll();
 
-    res.status(200).json(authors);
-});
+  res.status(200).json(authors);
+})
 
 // ===============================
 
@@ -27,7 +27,7 @@ app.get('/authors/:id', async (req, res) => {
   res.status(200).json(author);
 });
 
-// =================================
+// ===============================
 
 app.post('/authors', async (req, res) => {
   const { first_name, middle_name, last_name } = req.body;
@@ -41,7 +41,7 @@ app.post('/authors', async (req, res) => {
   res.status(201).json({ message: 'Autor criado com sucesso! '});
 });
 
-// ==================================
+// =================================
 
 app.get('/books', async (req, res) => {
   const { author_id } = req.query;
@@ -53,7 +53,7 @@ app.get('/books', async (req, res) => {
   res.status(200).json(books);
 });
 
-// ===================================
+// ================================
 
 app.get('/book/:id', async (req, res) => {
   const { id } = req.params;
@@ -65,7 +65,7 @@ app.get('/book/:id', async (req, res) => {
   res.status(200).json(book);
 });
 
-// ==================================
+// ==================================================
 
 app.post('/books', async (req, res) => {
   const { title, author_id } = req.body;
@@ -79,12 +79,10 @@ app.post('/books', async (req, res) => {
   res.status(201).json({ message: 'Livro criado com sucesso! '});
   });
 
-// ===================================================================
+// ==================================================
 
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
- console.log(`Ouvindo a porta ${PORT}`);
+    console.log(`Ouvindo a porta ${PORT}`);
 });
-
-// uma alteração qualquer para salvar no gitHub;
