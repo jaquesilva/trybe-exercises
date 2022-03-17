@@ -9,6 +9,8 @@ app.use(bodyParser.json());
 
 // =================================================
 
+// Rota GET /authors . E passamos uma função que acessa os parâmetros req e res , que chama a função getAll do nosso model , aguarda sua execução e então retorna um JSON com os dados enviados pelo banco.
+
 app.get('/authors', async (_req, res) => {
   const authors = await Author.getAll();
 
@@ -16,6 +18,8 @@ app.get('/authors', async (_req, res) => {
 })
 
 // ===============================
+
+//  Rota para obter os detalhes de uma pessoa autora, onde adicionamos uma função para responder a requisições para essa rota. Ela funciona de forma muito semelhante a da rota /authors . A diferença é que ela extrai o parâmetro id da URL e o usa para consultar o model pela pessoa escritora requisitada. Caso o model não encontre uma pessoa autora, setamos o código de status para 404 (Not Found) e retornamos um JSON com uma mensagem informando o que ocorreu.
 
 app.get('/authors/:id', async (req, res) => {
   const { id } = req.params;
@@ -28,6 +32,8 @@ app.get('/authors/:id', async (req, res) => {
 });
 
 // ===============================
+
+// A rota POST /authors extrai as informações da pessoa autora que chegam em req.body e verifica se os dados enviados são válidos. Caso não sejam, o endpoint retorna um JSON com uma mensagem informando o que houve, juntamente com o status 400 , que indica uma requisição ruim, no caso com dados inválidos. Caso os dados sejam válidos, pede ao modelo para criar uma nova pessoa autora e retorna um JSON com uma mensagem indicando que a pessoa autora foi criada com sucesso.
 
 app.post('/authors', async (req, res) => {
   const { first_name, middle_name, last_name } = req.body;

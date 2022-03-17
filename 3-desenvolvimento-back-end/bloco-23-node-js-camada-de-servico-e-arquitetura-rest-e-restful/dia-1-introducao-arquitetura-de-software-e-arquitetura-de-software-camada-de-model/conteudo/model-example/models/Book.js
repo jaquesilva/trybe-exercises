@@ -15,6 +15,8 @@ const getAll = async () => {
 
 // ===================================================
 
+// OBS: NÃO CONSEGUI ENTENDER A FUNCIONALIDADE DESSA FUNÇÃO
+
 const getByAuthorId = async (authorId) => {
   const query = 'SELECT * FROM model_example.books WHERE author_id=?;'
   const [books] = await connection.execute(query, [authorId]);
