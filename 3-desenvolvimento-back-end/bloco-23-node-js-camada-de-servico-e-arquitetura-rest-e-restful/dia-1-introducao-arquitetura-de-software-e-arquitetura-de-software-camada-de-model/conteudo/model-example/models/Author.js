@@ -97,7 +97,6 @@ const isValid = (firstName, middleName, lastName) => { // COMO ESSES PARÂMETROS
 // =====================================
 
 // Função que recebe firstName, middleName e lastName e salva uma pessoa autora no banco.
-
 const create = async (firstName, middleName, lastName) => connection.execute(
   'INSERT INTO model_example.authors (first_name, middle_name, last_name) VALUES (?,?,?)',
   [firstName, middleName, lastName],
