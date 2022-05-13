@@ -1,8 +1,8 @@
 const express = require('express');
-const { User } = require('../models');
+const { User } = require('../src/models');
 const router = express.Router();
 
-// Este endpoint usa o método findAll do Sequelize para retorno todos os users.
+// Este endpoint usa o método findAll do Sequelize para retornar todos os users.
 router.get('/', async (_req, res) => {
   try {
     const users = await User.findAll();
