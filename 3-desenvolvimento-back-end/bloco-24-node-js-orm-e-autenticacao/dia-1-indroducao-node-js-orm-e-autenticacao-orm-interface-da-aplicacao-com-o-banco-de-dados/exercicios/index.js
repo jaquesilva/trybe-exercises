@@ -7,8 +7,13 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
+// Exercise 5
 app.get('/books', BooksController.getAll);
+// Exercise 8
 app.get('/books/:id', BooksController.getById);
+// Exercise 11
 app.post('/books', BooksController.create);
+// Exercise 14
+app.put('/books/:id', BooksController.update);
 
 app.listen(PORT, () => console.log(`Ouvindo na porta ${PORT}!`));

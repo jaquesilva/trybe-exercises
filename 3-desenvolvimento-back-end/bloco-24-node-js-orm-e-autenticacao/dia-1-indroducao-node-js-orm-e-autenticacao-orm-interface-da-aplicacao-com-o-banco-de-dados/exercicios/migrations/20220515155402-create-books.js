@@ -20,6 +20,7 @@
 //   }
 // };
 
+// Exercise 1
 'use strict';
 module.exports = {
   up: async (queryInterface, Sequelize) => {
