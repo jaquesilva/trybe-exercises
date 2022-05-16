@@ -13,14 +13,14 @@ const getById = async (req, res) => {
   if (!book) return res.status(404).json({ message: "Book not found" });
 
   res.status(200).json(book);
-}
+};
 
 // Exercise 10
 const create = async (req, res) => {
   const { title, author, pageQuantity } = req.body;
   const newBook = await BookService.create({ title, author, pageQuantity });
   res.status(201).json(newBook);
-}
+};
 
 // Exercise 13
 const update = async (req, res) => {
@@ -32,6 +32,17 @@ const update = async (req, res) => {
   if (!updateBook) return res.status(404).json({ messge: 'Book not found' });
 
   res.status(201).json({ message: 'Book updated' });
+};
+
+// Exercise 16
+const remove = async (req, res) => {
+  const { id } = req.params;
+
+  const removeBook = await BookService.remove(id);
+
+  if (!removeBook) return res.status(404).json({ message: 'Book not found' });
+
+  res.status(200).json({ message: 'Book removed' });
 }
 
 module.exports = {
@@ -39,4 +50,5 @@ module.exports = {
   getById,
   create,
   update,
+  remove,
 };
