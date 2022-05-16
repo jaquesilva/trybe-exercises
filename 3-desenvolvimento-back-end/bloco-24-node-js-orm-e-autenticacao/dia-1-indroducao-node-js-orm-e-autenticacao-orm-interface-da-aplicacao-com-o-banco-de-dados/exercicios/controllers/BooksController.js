@@ -5,6 +5,12 @@ const getAll = async (_req, res) => {
   res.status(200).json(books);
 };
 
+const create = async (req, res) => {
+  const newBook = await BookService.create();
+  res.status(200).json(newBook);
+}
+
 module.exports = {
   getAll,
+  create,
 };
