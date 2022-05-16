@@ -4,13 +4,13 @@ const Book = (sequelize, DataTypes) => {
     author: DataTypes.STRING,
     pageQuantity: DataTypes.INTEGER,
     createdAt: DataTypes.DATE,
-    updateat: DataTypes.DATE
+    updatedAt: DataTypes.DATE
   });
 
-  return User;
+  return Book;
 };
 
-module.exports = User;
+module.exports = Book;
 
 // or
 

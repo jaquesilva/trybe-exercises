@@ -5,6 +5,13 @@ const getAll = async () => {
   return books;
 };
 
+const create = async (title, author, pageQuantity) => {
+  const newBook = await Book.create(title, author, pageQuantity);
+  return newBook;
+}
+
+
 module.exports = {
   getAll,
+  create,
 }

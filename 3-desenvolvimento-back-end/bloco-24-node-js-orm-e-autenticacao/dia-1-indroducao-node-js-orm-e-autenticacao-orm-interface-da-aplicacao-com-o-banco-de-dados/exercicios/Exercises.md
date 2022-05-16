@@ -27,3 +27,23 @@ Exercício 3: Crie um service BooksService com o método getAll para retornar um
 Exercício 4: Crie um controller BooksController com o método getAll sendo um middleware para retornar a lista de livros por meio do método getAll de BookService.
 
 Exercício 5: Vincule a rota GET /books para acessar seu controller.
+
+__________________________________
+
+🚀 Buscando um livro pelo id
+
+Exercício 6: No service BooksService crie um método getById que recebe um id como parâmetro e use o model Book para buscar esse livro. Retorne o objeto encontrado pelo model.
+
+Exercício 7: No controller BooksController crie o método getById sendo um middleware que recebe o id como parâmetro de rota e buscar o livro por meio do service. Se o livro não existir a resposta da requisição deve ter o status 404 e o json { "message": "Book not found" }.
+
+Exercício 8: Vincule a rota GET /books/:id para acessar seu controller.
+
+___________________________________
+
+🚀 Cadastrando um livro
+
+Exercício 9: No service BooksService crie um método create que recebe um objeto com os atributos title, author, pageQuantity e salve um novo livro utilizando o model Book.
+
+Exercício 10: No controller BooksController crie o método create sendo um middleware que recebe os atributos title, author, pageQuantity do body da requisição e salve os dados por meio do service.
+
+Exercício 11: Vincule a rota POST /books para acessar seu controller.
