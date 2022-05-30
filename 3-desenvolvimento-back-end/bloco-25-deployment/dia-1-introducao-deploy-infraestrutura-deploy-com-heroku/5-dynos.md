@@ -1,0 +1,3 @@
+O Heroku utiliza o conceito de container, em que as responsabilidades de gerenciar máquinas virtuais ou físicas são abstraídas. Isso significa que, em vez de se preocupar com a máquina onde você irá rodar seu código, você pode focar em desenvolver aplicações mais poderosas.
+
+Ao fazer o deploy no Heroku, você estará colocando sua aplicação dentro de um container. O container é um ambiente isolado e leve que provê os recursos necessários de CPU, memória RAM, um sistema operacional (Linux, no caso do Heroku) e um sistema temporário de arquivos para rodar seu código. No Heroku, os containers são chamados de dynos.
