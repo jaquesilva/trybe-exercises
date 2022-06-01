@@ -1,0 +1,12 @@
+# Heroku
+- PaaS (Plataform as a Service) - o que significa que ele provém de uma plataforma em nuvem para configurarmos e realizarmos nosso deploy de maneira simples e fácil
+- Executa aplicações escritas em:
+  - Node.js
+  - Ruby
+  - Java
+  - Python
+  - Clojure
+  - Scala
+  - Go
+  - PHP
+- build - é como chamamos todo o processo em que o código é preparado para posteriormente ser executado. Por exemplo, é durante o build que se executa o npm install para instalar as dependências do projeto.
