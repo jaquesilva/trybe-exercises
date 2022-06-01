@@ -62,4 +62,15 @@ app.listen(PORT, () => {
 10º Criar o arquivo '.gitignore" e adicionar o seguinte diretório:
 `node_modules`
 
-11º Subir a aplicação para o Heroku:
+11º Listar os remotes:
+
+`git remote -v`
+
+12º Subir a aplicação para o Heroku:
+
+`git add .`
+
+`git commit -m "Iniciando com Heroku"`
+
+`
+
