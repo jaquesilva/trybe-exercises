@@ -10,3 +10,4 @@
   - Go
   - PHP
 - build - é como chamamos todo o processo em que o código é preparado para posteriormente ser executado. Por exemplo, é durante o build que se executa o npm install para instalar as dependências do projeto.
+- 

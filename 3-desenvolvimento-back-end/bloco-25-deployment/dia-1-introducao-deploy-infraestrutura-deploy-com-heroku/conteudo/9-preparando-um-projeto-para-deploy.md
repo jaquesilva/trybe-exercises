@@ -111,3 +111,4 @@ Vamos mostrar no próximo tópico como usaremos o buildpack que mencionamos com 
 Você pode consultar o catálogo de buildpack [aqui](https://elements.heroku.com/buildpacks).
 Nota : Há um video explicando sobre os buildpacks na seção "Vendo tudo isso na prática".
 
+

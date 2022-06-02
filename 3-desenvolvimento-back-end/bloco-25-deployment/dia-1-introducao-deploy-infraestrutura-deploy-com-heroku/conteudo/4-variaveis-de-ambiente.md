@@ -35,3 +35,4 @@ MYSQL_PASS=secretpass
 Nota: 
 - Por se tratar de dados sensíveis, sempre adicionamos o arquivo .env ao .gitignore, pois ele não deve ser compartilhado com outras pessoas
 - As variáveis de ambiente podem ser definidas no Heroku no **dashboard** ou via **CLI**
+- 
