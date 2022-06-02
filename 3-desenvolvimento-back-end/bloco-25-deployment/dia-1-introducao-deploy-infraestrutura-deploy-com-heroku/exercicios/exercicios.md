@@ -72,5 +72,5 @@ app.listen(PORT, () => {
 
 `git commit -m "Iniciando com Heroku"`
 
-`
+`git push NOME_DO_REMOTE master`
 
