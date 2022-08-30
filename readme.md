@@ -14,7 +14,7 @@ metodologias ágeis e habilidades comportamentais.
 
 ### Bloco 1: Introdução - Unix & Shell
 
-1.3: Unix & Bash - Part 1 
+1.3: Fundamentos do Desenvolvimento Web / Introdução - Unix & Shell / Unix & Bash - Part 1 
 
 1.4: Unix & Bash - Part 2 
 
