@@ -217,3 +217,41 @@ metodologias ágeis e habilidades comportamentais.
 20.4: Manipulando tabelas :heavy_check_mark:
 
 20.5: Projeto - All For One :heavy_check_mark:
+
+### Bloco 21 - Funções SQL, JOINs e Normalização
+
+21.1: Funções mais usadas no SQL
+
+21.2: Descomplicando JOINs
+
+21.3: Transformando ideias em um modelo de banco de dados
+
+21.4: Projeto - One For All
+
+### Bloco 22 - Introdução ao desenvolvimento Web com Node.js
+
+22.1: Intro - Node.js / Node.js: Runtime Assíncrono
+
+22.2: Node.js: API REST com Express
+
+22.3: Node.js: Testes de Integração
+
+22.4: Express: Middlewares
+
+22.5: Node.js: Express e Mysql
+
+22.6: Projeto - Talker Manager
+
+### Bloco 23 - Node.js: Camada de Serviço e Arquitetura Rest e Restful
+
+23.1: Introdução - Arquitetura de Software / Arquitetura de Software - Camada de Model
+
+23.2: Arquitetura de Software - Camada de Controller e Service
+
+23.3: Arquitetura Web - Rest e Restful
+
+23.4: Arquitetura de Software - Testando as Camadas
+
+23.5: Projeto - Store Manager
+
+
