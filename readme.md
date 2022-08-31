@@ -12,21 +12,21 @@ metodologias ágeis e habilidades comportamentais.
 
 ## Introdução - Desenvolvimento Web 
 
-### Bloco 1: Introdução - Unix & Shell
+### Bloco 01: Introdução - Unix & Shell
 
 1.3: Fundamentos do Desenvolvimento Web / Introdução - Unix & Shell / Unix & Bash - Part 1 
 
 1.4: Unix & Bash - Part 2 
 
-### Bloco 2: Git & GitHub
+### Bloco 02: Git, GitHub e Internet
 
-2.1: O que é e para que serve? 
+2.1: Git & GitHub - O que é e para que serve? 
 
-2.2: Entendendo os comandos 
+2.2: Git & GitHub - Entendendo os comandos 
 
 2.3: Internet - Entendendo como ela funciona 
 
-### Bloco 3: Introdução - HTML & CSS
+### Bloco 03: Introdução à HTML & CSS
 
 3.1: HTML & CSS - Estruturas de página 
 
@@ -38,73 +38,77 @@ metodologias ágeis e habilidades comportamentais.
 
 3.5: Projeto - Lessons Learned 
 
-### Bloco 4: Introdução - JavaScript
+### Bloco 04:  Introdução à JavaScript e Lógica de Programação
 
-4.1: JavaScript - Primeiros passos 
+4.1: Introdução JavaScript / JavaScript - Primeiros passos 
 
 4.2: JavaScript - Array e loop For 
 
-4.3: JavaScript - Lógica de programação 
+4.3: JavaScript - Lógica de programação e Algoritmos
 
 4.4: Javascript- Objetos e funções 
 
 4.5: Projeto Playground Functions 
 
-### Bloco 5: Javascript: DOM,Eventos e Web Storage
+### Bloco 05: Javascript: DOM,Eventos e Web Storage
 
-5.1: Javascript- DOM e seletores 
+5.1: Javascript - DOM e seletores 
 
-5.2: Javascript- Trabalhando com elementos 
+5.2: Javascript - Trabalhando com elementos 
 
-5.3: Javascript- Eventos 
+5.3: Javascript - Eventos 
 
 5.4: Javascript - Web Storage 
 
-5.5: Projeto - Art com pixels 
+5.5: Fundamentos - JavaScript - Projetos / Projeto - Arte com Pixels
 
-5.6: Projeto - To do List 
+5.6: (Bônus) Projeto - Lista de tarefas 
 
-5.7: Projeto bônus - Meme generator 
+5.7: (Bônus) Projeto - Meme Generator
 
-### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
+5.7: (Bônus) Projeto - Adivinhe a Cor
+
+5.7: (Bônus) Projeto - Carta Misteriosa
+
+### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
 
 6.1: HTML & CSS- Forms 
 
 6.2: Bibliotecas Javascript e Frameworks CSS 
 
-6.3: CSS Flexbox- Parte 1 
+6.3: CSS Flexbox - Parte 1 
 
-6.4: CSS Flexbox- Parte 2 
+6.4: CSS Flexbox - Parte 2 
 
 6.5: CSS Responsivo- Mobile First 
 
 6.6: Projeto Trybewarts 
 
-### Bloco 7: Introdução à Javascript ES6 e Testes Unitários
+### Bloco 07: Introdução à Javascript ES6 e Testes Unitários
 
-7.1:Javascript ES6- let, const, arrow function e template literals
+7.1:Javascript ES6 - let, const, arrow function e template literals
 
-7.2: Javascript ES6-Objects 
+7.2: Javascript ES6 - Fluxo de execeção e Objetos 
 
-7.3: Teste unitários em Javascript 
+7.3: Primeiros passos em Jest
 
-7.4: Projeto: Javascript - Testes Unitários 
+7.4: Projeto: Javascript Testes Unitários 
 
-### Bloco 8: High Order Functions do Javascript ES6
+### Bloco 08: High Order Functions do Javascript ES6
 
-8.1: Javascript ES6- Introdução a High Order Functions 
+8.1: Javascript ES6 - Introdução a High Order Functions 
 
-8.2: Javascript ES6- High Order Functions- forEach, Find, some, every, sort 
+8.2: Javascript ES6 - High Order Functions- forEach, find, some, every, sort 
 
-8.3: Javascript ES6- High Order Functions-map e filter 
+8.3: Javascript ES6 - High Order Functions-map e filter 
 
-8.4: Javascript ES6- High Order Functions-reduce 
+8.4: Javascript ES6 - High Order Functions - reduce 
 
-8.5:Javascript ES6 - Spread Operator, parâmetro rest, destructuring e mais 
+8.5:Javascript ES6 - spread operator, parâmetro rest, destructuring e mais 
 
-8.6: Projeto zoo functions 
+8.6: Projeto - Zoo functions 
 
-### Bloco 9: Javascript Assincrono e Promises
+### Bloco 09: Javascript Assincrono e Promises
 
 9.1 : Javascript assíncrono e callback 
 
