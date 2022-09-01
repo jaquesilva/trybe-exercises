@@ -180,17 +180,19 @@ metodologias ágeis e habilidades comportamentais.
 
 ### =====================================
 
-### Bloco 18: Context API e React Hooks
+### Bloco 17: Context API e React Hooks
 
-18.1: Context API do React 
+17.1: Context API do React 
 
-18.2: React Hooks - useState e useContext 
+17.2: React Hooks - useState e useContext 
 
-18.3: React Hooks - useEffect e Hooks customizados 
+17.3: React Hooks - useEffect e Hooks customizados 
 
-18.4: Projeto - StarWars Datatable com Context API e Hooks
+17.4: Projeto - StarWars Datatable com Context API e Hooks
 
-18.5: Projeto - App de Receitas 
+### Bloco 18: Projeto App de Receitas
+
+18.1: Projeto - App de Receitas 
 
 ##  Desenvolvimento Back- End
 
@@ -242,14 +244,14 @@ metodologias ágeis e habilidades comportamentais.
 
 ### Bloco 23 - Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
-23.1: Introdução - Arquitetura de Software / Arquitetura de Software - Camada de Model
+23.1: Introdução - Arquitetura de Software / Arquitetura de Software - Camada Model
 
-23.2: Arquitetura de Software - Camada de Controller e Service
+23.2: Arquitetura de Software - Camada de Services
 
-23.3: Arquitetura Web - Rest e Restful
+23.3: Arquitetura de Software - Camada Controller
 
 23.4: Arquitetura de Software - Testando as Camadas
 
 23.5: Projeto - Store Manager
 
-
+### Bloco 24
