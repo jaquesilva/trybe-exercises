@@ -108,83 +108,77 @@ metodologias ágeis e habilidades comportamentais.
 
 8.6: Projeto - Zoo functions 
 
-### Bloco 09: Javascript Assincrono e Promises
-
-9.1 : Javascript assíncrono e callback 
-
-9.2: Javascript Promises 
-
-9.3: Projeto carrinho de compras 
-
-### Bloco 10: Testes automatizados com Jest
-
-10.1: Primeiros passos no Jest 
-
-10.2: Jest- testes assíncronos 
-
-10.3: Jest- simulando comportamentos 
-
-10.4: Projeto Jest Assíncrono e Mocking 
-
 ##  Desenvolvimento Front- End 
 
-### Bloco 11: Introdução ao react
+### Bloco 09: Javascript e Testes Assincronos
 
-11.1: Hello World no react 
+9.1 : Introdução - Front-end / JavaScript Assíncrono e Callbacks
 
-11.2: Componentes React 
+9.2: JavaScript Assíncrono - Fetch API e async/await 
 
-11-3: Projeto - Movie Cards Library 
+9.3: Jest - Testes Assíncronos
 
-### Bloco 12: Componentes com estado, evento e formulaŕio com react
+9.4: Projeto - Carrinho de Compras
 
-12.1: Componentes com estado e eventos 
+### Bloco 10: Introdução à React
 
-12.2: Formulários no React 
+10.1: Introdução - React / 'Hello, World!' no React 
 
-12.3: Projeto - Movie Cards Library Stateful 
+10.2: Componentes React 
 
-### Bloco 13: Ciclo de vida de componentes e react router
+10.3: Projeto - Sistema Solar
 
-13.1: Ciclo de vida de componentes 
+### Bloco 11: Componentes com Estado, Eventos e Formulaŕios com React
 
-13.2: React Router 
+11.1: Componentes com estado e eventos 
 
-13.3: Projeto - Movie Cards Library CRUD 
+11.2: Formulários no React 
 
-### Bloco 14: Metodologias Ágeis 
+11.3: Projeto - Tryunfo
 
-14.1: Metodologias ágeis 
+### Bloco 12: Ciclo de Vida de Componentes e React Router
 
-14.2: Projeto - Frontend Online Store 
+12.1: Ciclo de vida de componentes 
 
-### Bloco 15: Testes automatizados com react testing library 
+12.2: React Router 
 
-15.1: RTL -Primeiros passos
+12.3: Projeto - TrybeTunes
 
-15.2:RTL- mocks e inputs 
+### Bloco 13: Metodologias Ágeis 
 
-15.3:RTL- testando react router 
+13.1: Metodologias Ágeis 
 
-15.4: Projeto - Testes em React 
+13.2: Projeto - Frontend Online Store 
 
-### Bloco 16: Gerenciamento de estado com Redux 
+### Bloco 14: Testes automatizados com React Testing Library 
 
-16.1: Introdução ao Redux 
+14.1: RTL - Primeiros passos
 
-16.2: Usando redux no react - Parte 1 
+14.2: RTL - Mocks e Inputs 
 
-16.3: Usando redux no react - Prática 
+14.3: RTL - Testando React Router 
 
-16.4: Usando redux no react- Actions assíncronas 
+14.4: Projeto - Testes em React 
 
-16.5: Testes em React-Redux 
+### Bloco 15: Gerenciamento de estado com Redux 
 
-16.6: Projeto - Trybe-Wallet 
+15.1: Introdução ao Redux - O estado global da aplicação
 
-### Bloco 17: Projeto Jogo de Trivia
+15.2: Usando Redux no React 
 
-17.1: Projeto - Jogo de Trivia 
+15.3: Usando Redux no React - Prática 
+
+15.4: Usando Redux no React- Actions Rssíncronas 
+
+15.5: Testes em React-Redux 
+
+15.6: Projeto - Trybe Wallet 
+
+### Bloco 16: Projeto Jogo de Trivia
+
+16.1: Projeto - Jogo de Trivia 
+
+### =====================================
 
 ### Bloco 18: Context API e React Hooks
 
