@@ -178,8 +178,6 @@ metodologias ágeis e habilidades comportamentais.
 
 16.1: Projeto - Jogo de Trivia 
 
-### =====================================
-
 ### Bloco 17: Context API e React Hooks
 
 17.1: Context API do React 
