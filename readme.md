@@ -10,7 +10,7 @@ São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento
 web, desenvolvimento Front-end, Back-end, ciência da computação,
 metodologias ágeis e habilidades comportamentais.
 
-## Introdução - Desenvolvimento Web 
+## Fundamentos do Desenvolvimento Web
 
 ### Bloco 01: Introdução - Unix & Shell
 
