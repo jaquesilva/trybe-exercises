@@ -108,7 +108,7 @@ metodologias ágeis e habilidades comportamentais.
 
 8.6: Projeto - Zoo functions 
 
-##  Desenvolvimento Front- End 
+##  Desenvolvimento Front-end 
 
 ### Bloco 09: Javascript e Testes Assincronos
 
@@ -192,7 +192,7 @@ metodologias ágeis e habilidades comportamentais.
 
 18.1: Projeto - App de Receitas 
 
-##  Desenvolvimento Back- End
+##  Desenvolvimento Back-end
 
 ### Bloco 19: Docker: Utilizando Containers
 
