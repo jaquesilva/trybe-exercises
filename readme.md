@@ -252,4 +252,92 @@ metodologias ágeis e habilidades comportamentais.
 
 23.5: Projeto - Store Manager
 
-### Bloco 24
+### Bloco 24 - Node.js: ORM e Autenticação
+
+24.1: Introdução - Node.js: ORM e Autenticação / ORM - Interface da aplicação com o banco de dados
+
+24.2: ORM - Associations
+
+24.3: JWT - (JSON Web Token)
+
+24.4: Testando APIs com Testes de Integração
+
+24.5: Projeto - API de Blogs
+
+### Bloco 25 - Deployment
+
+25.1: Introdução - Deploy / Infraestrutura - Deploy com Heroku
+
+25.2: Deploy Docker & Heroku
+
+25.3: Projeto - Stranger Things
+
+### Bloco 26 - TypeScript
+
+26.1: Introdução - TypeScript
+
+26.2: Tipagem Estática e Generics
+
+26.3: Express com TypeScript
+
+26.4: Projeto - Trybe Smith
+
+### Bloco 27 - Programação Orientada a Objetos (POO) e SOLID
+
+27.1: Introdução à Orientação a Objetos
+
+27.2: Herança e Interfaces
+
+27.3: Polimorfismo
+
+27.4: SOLID - Introdução e Princípios S, O e D
+
+27.5: SOLID - Princípios L e I
+
+27.6: Projeto - Trybers and Dragons
+
+### Bloco 28 - Projeto - TFC - Trybe Futebol Clube
+
+28.1: Projeto - TFC - Trybe Futebol Clube
+
+### Bloco 29 - Introdução ao MongoDB
+
+29.1: Introdução - NoSQL / MongoDB - Introdução
+
+29.2: Filter Operators
+
+29.3: Operadores de consulta
+
+29.4: Updates Simples
+
+29.5: Updates Complexos - Arrays
+
+29.6: Projeto - Commerce
+
+### Bloco 30 - MongoDB com Node.js e POO
+
+30.1: Mongoose e arquitetura MSC(camada Model)
+
+30.2: Mongoose e arquitetura MSC(camada Service e Controller)
+
+30.3: Projeto - Car Shop
+
+### Bloco 31 - Projeto - App de Delivery
+
+31.1: Projeto - App de Delivery
+
+### Bloco 32 - MasterClass - VPS, CI/CD
+
+32.1: Dia 1 - VPS
+
+32.2: Dia 2
+
+##  Ciência da Computação
+
+
+
+
+
+
+
+
