@@ -3,6 +3,6 @@
 quantidade_livros = 60
 livro_sem_desconto = 24.20
 livro_com_desconto = livro_sem_desconto * (40/100)
-frete = 3 + ((quantidade_livros -1) * 0.75)
+frete = 3 + ((quantidade_livros - 1) * 0.75)
 custo_total = (livro_com_desconto + frete) * quantidade_livros
 print(custo_total)

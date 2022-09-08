@@ -19,7 +19,7 @@ print(a / b)
 print(a // b)
 
 # potenciação
-print( a ** b)
+print(a ** b)
 
 # módulo
 print(a % b)

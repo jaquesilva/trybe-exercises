@@ -5,3 +5,4 @@ trybe_course = ["Introdução", "Front-end", "Back-end", "Ciência da Computaç�
 trybe_course.insert(0, "Fundamentos")
 # or
 trybe_course[0] = "Fundamentos"
+print(trybe_course)
