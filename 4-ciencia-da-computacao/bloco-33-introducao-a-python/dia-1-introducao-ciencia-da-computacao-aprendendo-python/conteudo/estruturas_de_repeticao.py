@@ -31,6 +31,8 @@ print(domains)
 
 # Pegar somente o domínio específico
 
-domains = [god["domínio"] for god in pantheon_of_arton if god["domínio"] != "Tormenta"]
+# domains =
+#   [god["domínio"] for god in 
+#   pantheon_of_arton if god["domínio"] != "Tormenta"]
 
-print(domains)
+# print(domains)
