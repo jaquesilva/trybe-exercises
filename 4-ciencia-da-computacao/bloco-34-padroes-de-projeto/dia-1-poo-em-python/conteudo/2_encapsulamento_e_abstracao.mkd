@@ -1,0 +1,17 @@
+# Encapsulamento
+Por meio dele, podemos simplificar significativamente a programação, bem como proteger informações sigilosas ou sensíveis.
+
+Em Python, para indicar que a acessibilidade é privada: basta nomear um método ou atributo com o prefixo __ (dunder/duplo underline)
+
+Exemplo:
+
+Atributos
+```
+__ligado
+__cor
+__peso
+```
+
+
+# Abstração
+A abstração de dados oculta os detalhes da implementação e mostra apenas a funcionalidade para o usuário, a fim de reduzir a complexidade do código
