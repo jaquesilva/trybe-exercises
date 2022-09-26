@@ -1,3 +1,6 @@
+# Calcula pessoas que estão presentes em um show, dado a área do mesmo.
+
+
 import area
 
 PEOPLE_PER_SQUARE_METER = 2  # numero de pessoas por metro quadrado em média
